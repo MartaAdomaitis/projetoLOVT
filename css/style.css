@@ -1,8 +1,142 @@
-header {
-    box-shadow:2px;
+* {
+    box-sizing: border-box;
 }
 
-.banner {
+header {
+    box-shadow:2px;
+    display: flexbox;
+    align-items:flex-start;
+}
+
+main {
+    display: inline-block;
+    justify-content:center;
+}
+
+.menu{
+    width: 25%;
+
+}
+.banner{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.Primeira-Opção-Menu {
     display: flex;
     justify-content: center;
+    padding: 1%;
+    width: 1000px;
+}
+
+.Segunda-Opção-Menu {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 1000px;
+}
+.Terceira-Opção-Menu {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 1000px;
+}
+.Imagem-Menu{
+    width: 608px;
+    height: 80px;
+    background: rgba(196, 196, 196, 0.5);
+}
+
+.retangulo-preço{
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+
+.retangulo1{
+display:inline-block;
+background-color:  #EEEEEE;
+text-align: justify;
+padding: 5%;
+font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+margin-left: 5%;
+margin-right: 5%;
+justify-content: baseline;
+}
+
+.retangulo2{
+background-color:  #EEEEEE;
+text-align: justify;
+padding: 5%;
+font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+margin-right: 5%;
+margin-left: 5%;
+    }
+
+    .preço{
+        font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    color: #888888;
+    
+    }
+.subtítulo{
+    text-align: center;
+}
+.Texto-Industrial{
+  font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Texto-Modern{
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Texto-Classic{
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+footer{
+    display: flex;
+    padding: 5%;
+    background-color: #333333;
+}
+
+.redes-sociais{
+flex-direction: column;
+align-content:flex-end;
+text-align: end;
+font-family: 'Ropa Sans';
+font-style: normal;
+color: #FFFFFF;
+font-size: 12px;
+}
+
+.Endereço{
+    padding: 5%;
+    width: 900 px; 
 }
